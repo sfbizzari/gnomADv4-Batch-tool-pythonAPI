@@ -31,7 +31,6 @@ pip install requests
 "18-31598655-G-A"
 ```
 
-> [!Variant conversion]
 > Variants in HGVS nomenclature can be converted to VCF using VariantValidator's batch tool, among many other tools and APIs.   
 
 - Paste your variants in the variants variable in the python file.
