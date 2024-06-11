@@ -1,4 +1,4 @@
-# Retrieve af-hom-pop README
+# gnomAD v4.1 GraphQL query (using python and export to csv)
 
 - This is for using gnomAD's GraphQL API to retrieve allele frequencies, homozygote counts, and population specific numbers for your large list of variants (**gnomAD v4.1 dataset).
 
