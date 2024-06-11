@@ -1,3 +1,0 @@
-type BrowserMetadata {
-  clinvar_release_date: String!
-}
