@@ -1,4 +1,4 @@
-# :large_orange_diamond: gnomAD v4.1 GraphQL query (using python and export to csv)
+# :large_orange_diamond: Retrieve gnomAD v4 data using python and export to csv
 
 This repository is a fork of the [broadinstitute/gnomad-browser](https://github.com/broadinstitute/gnomad-browser) repository with a GraphQL API query to retrieve specific data from gnomAD and save it as a `csv`.
 
