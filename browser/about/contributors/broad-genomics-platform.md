@@ -1,3 +1,0 @@
-- **Stacey Gabriel**
-- Kristen Connolly
-- Steven Ferriera
