@@ -6,7 +6,7 @@ Please head to [this folder](https://github.com/sfbizzari/gnomad-af-hom-pop/tree
 
 - This is for using gnomAD's GraphQL API to retrieve allele frequencies, homozygote counts, and population specific numbers for your large list of variants (**gnomAD v4.1 dataset).
 
-- The folder contains a python file with a specific GraphQL API query with the population parameter set to Middle East (MID).
+- The folder contains a [python file](https://github.com/sfbizzari/gnomad-af-hom-pop/blob/422216c6fa3acb053b7a40ac253a4d657fe2585f/graphql-api/retrieve%20af-hom-pop/retrieve-AF-Hom-Pop.py) with a specific GraphQL API query with the population parameter set to Middle East (MID).
 ### Requirements: 
 
 - [Python](https://www.python.org/)
@@ -22,7 +22,7 @@ pip install requests
 
 ### Usage:
 
-- Download the python file and open it in your code editor; install the necessary dependency.
+- Download the [python file](https://github.com/sfbizzari/gnomad-af-hom-pop/blob/422216c6fa3acb053b7a40ac253a4d657fe2585f/graphql-api/retrieve%20af-hom-pop/retrieve-AF-Hom-Pop.py) and open it in your code editor; install the necessary dependency.
   
 - Prepare your list of VCF variants e.g.: 
 ```
