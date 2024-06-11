@@ -1,5 +1,0 @@
-packages:
-  - 'browser'
-  - 'dataset-metadata'
-  - 'graphql-api'
-  - 'reads'
