@@ -1,9 +1,9 @@
-# gnomAD v4.1 GraphQL query (using python and export to csv)
+# :large_orange_diamond: Retrieve gnomAD v4 data using python and export to csv
 
 - This is for using gnomAD's GraphQL API to retrieve allele frequencies, homozygote counts, and population specific numbers for your large list of variants (**gnomAD v4.1 dataset).
 
 - The folder contains a python file with a specific GraphQL API query with the population parameter set to Middle East (MID).
-### Requirements: 
+### 🟧	Requirements: 
 
 - [Python](https://www.python.org/)
   
@@ -16,7 +16,7 @@ pip install requests
 
 - `time` and `csv` libraries are part of the standard Python library.
 
-### Usage:
+### 🟧	Usage:
 
 - Download the python file and open it in your code editor; install requests.
   
@@ -75,4 +75,11 @@ Middle Eastern Population Data:
 | 5-161873196-G-A | 0                          | 0            | 0                           | 0             | 0                          | 0            | 0                                   | 0                     |
 | 17-31261733-C-T | 0                          | 1.37E-06     | 0                           | 6.57E-06      | 0                          | 1.86E-06     | 0                                   | 0                     |
 
-If you find this useful, please feel free to use and modify as you see fit. 
+If you find this useful, please feel free to use and modify as you see fit.
+
+## 🟧	Citation
+
+As mentioned by the gnomad-browser repository, please cite the following if you use gnomAD data:
+
+- [The mutational constraint spectrum quantified from variation in 141,456 humans](https://broad.io/gnomad_lof)
+- [The ExAC browser: displaying reference data information from over 60 000 exomes](https://academic.oup.com/nar/article/45/D1/D840/2572071)
