@@ -1,4 +1,4 @@
-# gnomAD v4.1 GraphQL query (using python and export to csv)
+# :large_orange_diamond: gnomAD v4.1 GraphQL query (using python and export to csv)
 
 This repository is a fork of the [broadinstitute/gnomad-browser](https://github.com/broadinstitute/gnomad-browser) repository with a GraphQL API query to retrieve specific data from gnomAD and save it as a `csv`.
 
@@ -7,7 +7,7 @@ Please head to [this folder](https://github.com/sfbizzari/gnomad-af-hom-pop/tree
 - This is for using gnomAD's GraphQL API to retrieve allele frequencies, homozygote counts, and population specific numbers for your large list of variants (**gnomAD v4.1 dataset).
 
 - The folder contains a [python file](https://github.com/sfbizzari/gnomad-af-hom-pop/blob/422216c6fa3acb053b7a40ac253a4d657fe2585f/graphql-api/retrieve%20af-hom-pop/retrieve-AF-Hom-Pop.py) with a specific GraphQL API query with the population parameter set to Middle East (MID).
-### Requirements: 
+### 🔸	Requirements: 
 
 - [Python](https://www.python.org/)
   
@@ -20,7 +20,7 @@ pip install requests
 
 - `time` and `csv` libraries are part of the standard Python library.
 
-### Usage:
+### 🔸	Usage:
 
 - Download the [python file](https://github.com/sfbizzari/gnomad-af-hom-pop/blob/422216c6fa3acb053b7a40ac253a4d657fe2585f/graphql-api/retrieve%20af-hom-pop/retrieve-AF-Hom-Pop.py) and open it in your code editor; install the necessary dependency.
   
@@ -82,7 +82,7 @@ Middle Eastern Population Data:
 
 If you find this useful, please feel free to use and modify as you see fit. 
 
-## Citation
+## 🔸	Citation
 
 As mentioned by the gnomad-browser repository, please cite the following if you use gnomAD data:
 
