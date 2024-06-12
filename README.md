@@ -4,7 +4,7 @@ This repository is a fork of the [broadinstitute/gnomad-browser](https://github.
 
 Please head to [this folder](https://github.com/sfbizzari/gnomad-af-hom-pop/tree/66d88911ce16259233d5b119ab15fe5e9afb5d8c/graphql-api/retrieve%20af-hom-pop)
 
-- This is for using gnomAD's GraphQL API to retrieve allele frequencies, homozygote counts, and population specific numbers for your large list of variants (**gnomAD v4.1 dataset).
+- This is for using gnomAD's GraphQL API to retrieve allele frequencies, homozygote counts, and population specific numbers for your large list of variants (**gnomAD v4 dataset**).
 
 - The folder contains a [python file](https://github.com/sfbizzari/gnomad-af-hom-pop/blob/422216c6fa3acb053b7a40ac253a4d657fe2585f/graphql-api/retrieve%20af-hom-pop/retrieve-AF-Hom-Pop.py) with a specific GraphQL API query with the population parameter set to Middle East (MID).
 ### 🟧	Requirements: 
